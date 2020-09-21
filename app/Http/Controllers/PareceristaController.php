@@ -13,6 +13,6 @@ class PareceristaController extends Controller
         
         echo ($request->numero_usp) . ' - ';
         echo ($request->nome);
-        dd('Está funcionando');
+        dd('Está funcionando!!');
     }
 }
